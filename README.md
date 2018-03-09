@@ -2,7 +2,7 @@
 A digital clock written with HTML, CSS, and JavaScript
 This clock changes it's greeting message and background image in relation to time in JS.
 
-Language: HTML, CSS
+Language: HTML, CSS, JavaScript
 
 I. Goal 
 ---------
