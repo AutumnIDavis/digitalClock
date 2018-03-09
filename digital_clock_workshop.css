@@ -1,0 +1,48 @@
+html{
+  max-width: 30%;
+}
+
+#Morning{
+  text-align: center;
+  position: relative;
+  top: 20px;
+  font-size: 58px;
+  left: 672px;
+  font-family: 'Flavors', cursive;
+}
+
+#Afternoon{
+  text-align: center;
+  position: relative;
+  top: -120px;
+  font-size: 58px;
+  left: 672px;
+  font-family: 'Flavors', cursive;
+}
+
+#City{
+  position: absolute;
+  left: -5%;
+  margin: -11% 0%;
+  display: inline-block;
+}
+
+#Bird{
+  position: absolute;
+  left: -5%;
+  margin: -11% 0%;
+  display: inline-block;
+}
+
+.curTime{
+  font-size: 190px;
+  text-align: center;
+  position: relative;
+  top: -90px;
+  font-family: 'Flavors', cursive;
+  left: 675px;
+  background-color: rgba(250,250,250,0.4);
+  border: 2px solid black;
+  margin: -25px;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+}

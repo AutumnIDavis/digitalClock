@@ -1,0 +1,57 @@
+<!--
+
+The greeting display clock that displays a random background image to the user with the time and a custom greeting based on the time of day. Ex: “Good morning”
+
+- JS clock is fully functional and throws zero errors
+- The time is in digital format
+- The time is displayed centered in the middle of the screen
+- The screen background image changes based on time of day
+- The greeting is based on time of day (good morning, good afternoon, good evening..)
+
+-->
+
+<!DOCTYPE html>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Flavors" rel="stylesheet">
+    <link rel="stylesheet" href="/Users/foreverautumn/Desktop/WebDevelopment/Projects/digitalClock/digital_clock_workshop.css">
+    <script src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/digitalClock/digital_clock_workshop.js"></script>
+  </head>
+
+  <body onload="startTime()" "greeting()">
+
+
+
+        <!--
+            Change the greeting~
+                Goal: make greeting change w/ time
+                 - make if/else statement that asks whether hour var is above or below 12
+                 - if hour is below 12, make "Morning" id visible
+                 - else, make "Afternoon" id visible
+        -->
+        <div id="Bird">
+          <img src="/Users/foreverautumn/Desktop/WebDevelopment/Month 1/Week 2/Day 3/digitalClock/images/mezzanine_152.jpg" style="width:100%" alt="hummingbird">
+        </div>
+
+        <div id="City">
+          <img src="/Users/foreverautumn/Desktop/WebDevelopment/Month 1/Week 2/Day 3/digitalClock/images/5923-wallpapers-city.jpg" style="width:100%" alt="city">
+        </div>
+
+            <div id="Morning">
+                <p>
+                  Good Morning!
+                </p>
+            </div>
+
+            <div id="Afternoon">
+                <p>
+                  Good Afternoon!
+                </p>
+            </div>
+
+          <div class="curTime">
+            <div id="words"></div>
+          </div>
+
+
+  </body>
